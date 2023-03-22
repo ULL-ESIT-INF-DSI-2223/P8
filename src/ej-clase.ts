@@ -8,9 +8,11 @@ import { FireCreator } from "./firecreator";
  * @param pokemonCreator the creators type that we want to create.
  */
 export function clientCode(pokemonCreator: PokemonCreator) {
-  console.log(pokemonCreator.logic());
+  let result = "";
+  result = (pokemonCreator.logic());
+  return result;
 }
 
-clientCode(new WaterCreator('Squirtle', 'Azul', '1ª'));
+console.log(clientCode(new WaterCreator('Squirtle', 'Azul', '1ª')));
 clientCode(new GrassCreator('Ivysaur', 'Verde', '2ª'));
 clientCode(new FireCreator('Charizard', 'Rojo', '3ª'));
