@@ -12,8 +12,8 @@ describe("getName() function test", () => {
 });
 
 describe("getColor() function test", () => {
-  it("getColor() returns Fuego", () => {
-    expect(test.getColor()).to.be.eql('Fuego');
+  it("getColor() returns Rojo", () => {
+    expect(test.getColor()).to.be.eql('Rojo');
   });  
 });
 
